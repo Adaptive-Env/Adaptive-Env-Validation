@@ -11,8 +11,8 @@ public class AuthKeyRegistry {
 
     public AuthKeyRegistry() {
         authKeys.put("admin", "admin");
-        authKeys.put("sensor-001", "key123");
-        authKeys.put("light-001", "key456");
+        authKeys.put("pump-01", "secret-key");
+
     }
 
     public boolean isValid(String deviceId, String authKey) {
