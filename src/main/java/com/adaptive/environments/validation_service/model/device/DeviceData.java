@@ -20,6 +20,7 @@ public class DeviceData {
     private String authKey;
     private Map<String, Object> data;
 
+
     @Override
     public String toString() {
         return "DeviceData{" +
